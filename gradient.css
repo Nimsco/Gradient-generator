@@ -1,0 +1,83 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 60vh;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+#button1
+{
+    height: 2.5rem;
+    width: 8rem;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 1.2rem;
+    background-color: #011f8c;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#button2
+{
+    height: 2.5rem;
+    width: 8rem;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor:pointer;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    background-color: #88c93a;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.buttons
+{
+    display: flex;
+    gap: 2rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+#para
+{
+    color: white;
+    font-size: 1.1rem;
+    opacity: 60%;
+}
+
+#gradient-code
+{
+    color: white;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border-left: 5px solid white;
+    padding: 1rem 0.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(6px);
+}
